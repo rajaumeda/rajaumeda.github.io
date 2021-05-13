@@ -1,0 +1,48 @@
+.jumbotron {
+  padding: 5rem;
+  height: 650px;
+  background-color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-me {
+  margin-top: 90px;
+}
+
+.row-1 {
+  margin-top: 50px;
+}
+
+#project {
+  margin-top: 100px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-size: small;
+}
+
+.content-1 {
+  padding-top: 100px;
+}
+
+.display-4 {
+  padding-top: 20px;
+  font-size: 45px;
+  color: aliceblue;
+}
+
+.card-body {
+  height: 120px;
+}
+.footer {
+  padding-top: 40px;
+  height: 100px;
+}
+
+section {
+  padding-top: 5rem;
+}
