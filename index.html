@@ -1,177 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+<!--
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+Template 2082 Pure Mix
 
-    <!-- My Css -->
-    <link rel="stylesheet" href="style.css" />
-    \
+http://www.tooplate.com/view/2082-pure-mix
 
-    <!-- boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
-    <!-- Myfonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+	<!-- Site title
+   ================================================== -->
+	<title>Pure Mix - HTML CSS Template</title>
 
-    <title>Portfolio Raja Umeda</title>
-  </head>
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000">
-      <div class="container">
-        <a class="navbar-brand" href="#">Dwwaarrd</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- akhir navbar -->
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <section class="content-1">
-        <img src="img/me.jpg" alt="Raja umeda" width="250" class="rounded-circle" />
-        <h1 class="display-4">Raja Umeda</h1>
-        <p class="lead" style="color: gray">UI/UX Designer and Web Programer.</p>
-      </section>
-    </section>
-    <!-- akhir jumbotrone -->
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
 
-    <!-- About -->
-    <section id="about">
-      <div class="container about-me">
-        <div class="row text-center">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-evenly row-1 fs-5 text-center">
-          <div class="col-md-5 mb-4">Hi saya raja umeda, saya seorang UI/UX Desainer dan Web Developer. Saya menekuni bidang ini dari kuliah dengan jurusan Teknologi Informasi dan Komputer disebuah universitas negeri di malang.</div>
-          <div class="col-md-5">
-            Saya menerima jasa pembuatan desain aplikasi web/android, selama kuliah saya sudah mengerjakan berbagai project web dan design yang mencakup Android, Web dan iOS. Saya ingin meningkatkan pengalaman diri saya ke tahap
-            profesional.
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- akhir about -->
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
 
-    <!-- project -->
-    <section id="project" style="background-color: black">
-      <div class="container project">
-        <div class="row text-center">
-          <div class="col">
-            <h2 class="about-me" style="color: white">My Project</h2>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/1.jpg" class="card-img-top" alt="project1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">Dwwaarrd</a>
               </div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                      <ul id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <!-- <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
             </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/2.jpg" class="card-img-top" alt="project2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/3.jpg" class="card-img-top" alt="project3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/4.jpg" class="card-img-top" alt="project3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center about-me">
-          <div class="col">
-            <p><a href="#" style="color: white" class="text-decoration-none">more project</a></p>
-          </div>
-        </div>
+         </div>
       </div>
-    </section>
-    <!-- akhir project -->
 
-    <!-- contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center about-me">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="name" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button onclick="myFunction()" type="submit" class="btn btn-dark">Submit</button>
-              <script>
-                function myFunction() {
-                  alert("sorry this feature doesn't exist yet");
-                }
-              </script>
-            </form>
-          </div>
-        </div>
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-one">
+	<div class="container">
+		<div class="row justify-content-between">
+
+			<div class="col-md-3">
+          
+              <div class="wow fadeIn" data-wow-delay="0.6s"><h1 class="judul">Raja Umeda</h1></div> 
+              <h3 class="wow fadeInUp" style="color: #fff;" data-wow-delay="0.9s">UI Designer and Frontend Developer</h3>
+              <a href="contact.html" type="button" class="btn btn-lg wow fadeInUp"style="margin-top: 30px; background-color: #423F3E; color: #fff;" data-wow-delay="1.2s"><h4>Hire me</h4></a>
+        
+			</div>
+
+         <div class="col-md-4 col-md-offset-5">
+          
+             <img class="img-profile" src="images/me.png">
+        
+         </div>
+
+
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Portfolio section
+================================================== -->
+<section id="portfolio">
+   <div class="container">
+      <div class="row">
+
+         <div class="col-md-12 col-sm-12">
+            
+               <!-- iso section -->
+               <div class="iso-section wow fadeInUp" data-wow-delay="0.5s">
+
+                  <ul class="filter-wrapper clearfix">
+                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".template">Website Design</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">Mobile Design</a></li>
+                           <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Graphic Design</a></li>
+                        <li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li>
+                        </ul>
+
+                        <!-- iso box section -->
+                        <div class="iso-box-section wow fadeInUp" data-wow-delay="0.5s">
+                           <div class="iso-box-wrapper col4-iso-box">
+
+                              <div class="iso-box template branding col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/1.png" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Summer Landingpage</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/2.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Coffee Shop Landingpage</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/3.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Cat Care Landingpage</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/4.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Credit Card Ui Design</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/5.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Dashboard Ui Design</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/6.png" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Login Page #01</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box template col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/7.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Space Z Landingpage</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box graphic col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/8.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Travel mobile ui design</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                              <div class="iso-box graphic col-md-4 col-sm-6">
+                                 <div class="portfolio-thumb">
+                                    <img src="images/9.jpg" class="img-responsive" alt="Portfolio">
+                                       <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <!-- <a href="single-project.html"><i class="fa fa-link"></i></a> -->
+                                                <h2>Training mobile ui design</h2>
+                                             </div>
+                                       </div>
+                                 </div>
+                              </div>
+
+                            </div>
+                        </div>
+
+               </div>
+
+         </div>
+
       </div>
-    </section>
-    <!-- akhir contact -->
+   </div>
+</section>
 
-    <!-- footer -->
-    <footer class="footer bg-dark text-white text-center about-me">
-      <p>Created with <i class="bi bi-suit-heart-fill"></i> by <a class="text-white fw-bold" href="https://www.instagram.com/dwwaarrd/">Raja Umeda</a></p>
-    </footer>
-    <!-- akhir footer -->
+<!-- Link Direction section
+================================================== -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-  </body>
+<section class="">
+   <div class="container">
+      <div class="row">
+         <div class=" center">
+            <h2 class="wow fadeInUp">See more project</h2>
+            <a href="https://dribbble.com/rajaumeda" target="_blank" type="button" class="btn btn-md wow fadeInUp"style="background-color: #423F3E; color: #fff;" data-wow-delay="1.2s"><h4>Here</h4></a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2016 Your Company Name - Designed by Tooplate</p>
+				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-behance"></a></li>
+					<li><a href="#" class="fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
 </html>
